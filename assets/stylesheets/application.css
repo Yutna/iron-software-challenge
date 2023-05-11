@@ -3,7 +3,13 @@
   --ir-cultist-robe: #331433;
   --ir-hashita-purple: #8f618f;
   --ir-heather-feather: #c6aac6;
+  --ir-profound-mauve: #402640;
   --ir-radiant-raspberry: #e01a59;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -12,8 +18,10 @@ body {
   font-family: "Figtree", sans-serif;
   font-weight: 300;
   line-height: 1.75;
-  background-color: var(--ir-black-cherry);
+  background-color: var(--ir-profound-mauve);
 }
+
+/* Utils */
 
 .display-1 {
   font-size: 3.125rem; /* 50px */
@@ -43,4 +51,34 @@ body {
   font-size: 0.875rem; /* 14px */
   font-weight: 300;
   line-height: 2; /* 28px */
+}
+
+.text-hashita-purple {
+  color: var(--ir-hashita-purple);
+}
+
+.text-heather-feather {
+  color: var(--ir-heather-feather);
+}
+
+/* Hero section */
+.hero {
+  margin-top: 56px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  background-color: var(--ir-black-cherry);
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hero__logo {
+  margin-bottom: 30px;
+  width: auto;
+  height: 40px;
 }
