@@ -10,3 +10,33 @@ body {
   line-height: 1.75;
   background-color: var(--ir-black-cherry);
 }
+
+.display-1 {
+  font-size: 3.125rem; /* 50px */
+  font-weight: 900;
+  line-height: 1.08; /* 54px */
+}
+
+.display-2 {
+  font-size: 2.5rem; /* 40px */
+  font-weight: 900;
+  line-height: 1.1; /* 44px */
+}
+
+.display-3 {
+  font-size: 1.875rem; /* 30px */
+  font-weight: 900;
+  line-height: 1.13; /* 34px */
+}
+
+.display-4 {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700;
+  line-height: 1.44; /* 26px */
+}
+
+.display-5 {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 300;
+  line-height: 2; /* 28px */
+}
