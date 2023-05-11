@@ -1,0 +1,12 @@
+:root {
+  --ir-black-cherry: #2c0f29;
+}
+
+body {
+  position: relative;
+  color: var(--bs-white);
+  font-family: "Figtree", sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  background-color: var(--ir-black-cherry);
+}
