@@ -135,13 +135,6 @@ body {
   gap: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .section-signup__content {
-    flex-direction: row;
-    align-items: center;
-  }
-}
-
 .section-signup .display-2 {
   margin-bottom: 5px;
 }
@@ -149,6 +142,17 @@ body {
 .section-signup .form-signup {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+/* Footer section */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(23, 6, 23, 0.3);
+}
+
+.footer .form-signup {
+  margin-top: 30px;
 }
 
 /* Badge component */
@@ -212,4 +216,13 @@ body {
   font-weight: 700;
   line-height: 1.25;
   background-color: var(--ir-radiant-raspberry);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  .section-signup__content {
+    flex-direction: row;
+    align-items: center;
+  }
 }

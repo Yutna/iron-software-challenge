@@ -27,6 +27,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-utilities.min.css"
+      integrity="sha512-DEGBrwaCF4lkKzMKNwt8Qe/V54bmJctk7I1HyfINGAIugDvsdBeuWzAWZmXAmm49P6EBfl/OeUM01U3r7cW4jg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/stylesheets/application.css" />
   </head>
   <body>
@@ -74,7 +81,18 @@
                 />
               </label>
               <button class="form-signup__btn" type="submit">
-                Sign up now 
+                Sign up now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  height="16"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="m6.427 4.427 3.396 3.396a.25.25 0 0 1 0 .354l-3.396 3.396A.25.25 0 0 1 6 11.396V4.604a.25.25 0 0 1 .427-.177Z"
+                  />
+                </svg>
               </button>
             </form>
             <div class="section-signup__content">
@@ -153,19 +171,41 @@
     </section>
 
     <!-- Second sign up section -->
-    <footer>
-      <h3>Sign up to our <strong>Beta Program</strong></h3>
-      <form class="form-signup form-signup--full">
-        <label class="form-signup__label">
-          <span class="sr-only">Email</span>
-          <input
-            class="form-signup__control"
-            placeholder="Enter email address"
-            type="email"
-          />
-        </label>
-        <button class="form-signup__btn" type="submit">Sign up now </button>
-      </form>
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-10 col-lg-8 col-xl-6">
+            <h3 class="display-3 text-center">
+              Sign up to our
+              <strong class="text-heather-feather">Beta Program</strong>
+            </h3>
+            <form class="form-signup form-signup--full">
+              <label class="form-signup__label">
+                <span class="sr-only">Email</span>
+                <input
+                  class="form-signup__control"
+                  placeholder="Enter email address"
+                  type="email"
+                />
+              </label>
+              <button class="form-signup__btn" type="submit">
+                Sign up now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  height="16"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="m6.427 4.427 3.396 3.396a.25.25 0 0 1 0 .354l-3.396 3.396A.25.25 0 0 1 6 11.396V4.604a.25.25 0 0 1 .427-.177Z"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
