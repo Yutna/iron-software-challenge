@@ -58,20 +58,35 @@
     </header>
 
     <!-- First sign up section -->
-    <section>
-      <h2>Be one of the first</h2>
-      <h4>Sign up NOW to get early access!</h4>
-      <form>
-        <label>
-          <span>Email</span>
-          <input type="email" placeholder="Enter email address" />
-        </label>
-        <button type="submit">Sign up now </button>
-      </form>
-      <p>
-        <span># Coming soon</span>
-        IronPDF Beta Program also coming soon for Python | Node.JS | Java
-      </p>
+    <section class="section-signup">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="display-2 mb-1">Be one of the first</h2>
+            <h4 class="display-4 mb-0">Sign up NOW to get early access!</h4>
+            <form class="form-signup">
+              <label class="form-signup__label">
+                <span class="sr-only">Email</span>
+                <input
+                  class="form-signup__control"
+                  placeholder="Enter email address"
+                  type="email"
+                />
+              </label>
+              <button class="form-signup__btn" type="submit">
+                Sign up now 
+              </button>
+            </form>
+            <div class="section-signup__content">
+              <span class="badge badge--soft"># Coming soon</span>
+              <p class="mb-0">
+                IronPDF Beta Program also coming soon for
+                <strong class="font-bold">Python | Node.JS | Java</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- IronPDF for C++ section -->
@@ -140,12 +155,16 @@
     <!-- Second sign up section -->
     <footer>
       <h3>Sign up to our <strong>Beta Program</strong></h3>
-      <form>
-        <label>
-          <span>Email</span>
-          <input type="email" placeholder="Enter email address" />
+      <form class="form-signup form-signup--full">
+        <label class="form-signup__label">
+          <span class="sr-only">Email</span>
+          <input
+            class="form-signup__control"
+            placeholder="Enter email address"
+            type="email"
+          />
         </label>
-        <button type="submit">Sign up now </button>
+        <button class="form-signup__btn" type="submit">Sign up now </button>
       </form>
     </footer>
   </body>
