@@ -1,0 +1,89 @@
+.footer {
+  position: relative;
+  background-color: var(--ir-black-cherry);
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 9%;
+  width: 74%;
+  height: 50%;
+  background: linear-gradient(144.39deg, #e01a59 -32.66%, #460a48 71.03%);
+  opacity: 0.3;
+  filter: blur(117.5px);
+}
+
+.footer__info {
+  padding: 2.5rem 0.75rem;
+}
+
+.footer__content {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer__signup {
+  display: flex;
+  padding: 1.75rem 1.5rem;
+  width: 100%;
+  background: rgba(23, 6, 23, 0.3);
+  z-index: 1;
+}
+
+.footer__signup-title,
+.footer__signup-form {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.footer__signup-title {
+  margin-top: 0.9375rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer__signup-form {
+  margin-top: 1.875rem;
+  margin-bottom: 0.9375rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.footer__signup-form .form-register {
+  max-width: 37.5rem;
+}
+
+.footer__info .card-library {
+  margin-top: 1.25rem;
+}
+
+.footer__info .card-library--highlight {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__content {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .footer__signup {
+    padding: 2.5rem 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer__info {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer__info .card-library {
+    margin-top: 0;
+  }
+}

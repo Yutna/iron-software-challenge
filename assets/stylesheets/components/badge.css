@@ -1,0 +1,25 @@
+.badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  padding: 0.125px 1.125rem;
+  color: var(--ir-heather-feather);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 2;
+  background-color: var(--ir-cultist-robe);
+}
+
+.badge--large {
+  padding: 0.25rem 1.5rem;
+}
+
+.badge--highlight {
+  color: var(--ir-hashita-purple);
+  background-color: var(--ir-heather-feather);
+}
+
+.badge--highlight.badge--large {
+  color: var(--ir-cultist-robe);
+}

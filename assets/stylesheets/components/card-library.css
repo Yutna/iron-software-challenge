@@ -1,0 +1,18 @@
+.card-library {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid var(--ir-cultist-robe);
+  border-radius: 9999px;
+  padding: 1.25rem 1.6875rem;
+  background: rgba(23, 6, 23, 0.8);
+}
+
+.card-library--highlight {
+  border-color: var(--ir-purple-void);
+}
+
+.card-library__img {
+  width: 7rem;
+  height: auto;
+}

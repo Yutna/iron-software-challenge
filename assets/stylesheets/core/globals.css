@@ -1,0 +1,36 @@
+:root {
+  --ir-black-cherry: #2c0f29;
+  --ir-cultist-robe: #331433;
+  --ir-hashita-purple: #8f618f;
+  --ir-heather-feather: #c6aac6;
+  --ir-profound-mauve: #402640;
+  --ir-purple-void: #431f43;
+  --ir-radiant-raspberry: #e01a59;
+  --ir-sheikh-zayed-white: #e7eef0;
+  --ir-thamar-black: #181818;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: var(--bs-white);
+  font-family: "Figtree", sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  background-color: var(--ir-profound-mauve);
+}
+
+p {
+  margin-bottom: 0;
+}
+
+::placeholder {
+  color: var(--ir-thamar-black);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.0625rem;
+  opacity: 1;
+}

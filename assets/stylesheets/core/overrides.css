@@ -1,0 +1,44 @@
+/* 
+ * NOTE:
+ * I have created this formula for adjusting the content’s width ratio inside the container on any breakpoints 
+ * by using 1170px (from Figma) as a base from large screen and comparing it with the original Bootstrap content’s width 
+ * to get the appropriate size.
+ * SEE: https://getbootstrap.com/docs/5.2/layout/containers/
+*/
+
+@media screen and (min-width: 576px) {
+  /* (540 - 24) * (1194 / 1296 * 100 / 100)  */
+  .container {
+    max-width: 475px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* (720 - 24) * (1194 / 1296 * 100 / 100)  */
+  .container {
+    max-width: 642px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* (960 - 24) * (1194 / 1296 * 100 / 100)  */
+  .container {
+    max-width: 862px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* (1140 - 24) * (1194 / 1296 * 100 / 100)  */
+  .container {
+    max-width: 1028px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* Original Bootstrap width: 1320 (1296 + 24) */
+  /* But we will using this value instead: 1170 + 24 (container padding left/right) */
+  /* The value 1170 is the max content's width in Figma  */
+  .container {
+    max-width: 1194px;
+  }
+}

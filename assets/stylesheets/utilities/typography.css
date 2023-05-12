@@ -1,0 +1,64 @@
+.typography-1,
+.typography-2,
+.typography-3,
+.typography-4,
+.typography-5 {
+  margin: 0;
+}
+
+.typography-1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.08;
+}
+
+.typography-2 {
+  font-size: 1.875rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.typography-3 {
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1.1333;
+}
+
+.typography-4 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4444;
+}
+
+.typography-5 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.typography-highlight {
+  color: var(--ir-hashita-purple);
+  font-weight: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .typography-1 {
+    font-size: 3.125rem;
+  }
+
+  .typography-2 {
+    font-size: 2.5rem;
+  }
+
+  .typography-3 {
+    font-size: 1.875rem;
+  }
+
+  .typography-4 {
+    font-size: 1.125rem;
+  }
+
+  .typography-5 {
+    font-size: 0.875rem;
+  }
+}
