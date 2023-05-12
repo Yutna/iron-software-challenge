@@ -16,3 +16,10 @@
   width: 7rem;
   height: auto;
 }
+
+@media screen and (min-width: 1400px) {
+  .card-library { 
+    justify-content: flex-start;
+    gap: 1.875rem;
+  }
+}
