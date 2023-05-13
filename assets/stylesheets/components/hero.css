@@ -3,6 +3,35 @@
   background-color: var(--ir-black-cherry);
 }
 
+.hero__lead {
+  padding-top: 7.375rem;
+  padding-bottom: 2.125rem;
+}
+
+.hero__lead-logo {
+  margin-bottom: 2.5rem;
+  width: auto;
+  height: 2.5rem;
+}
+
+.hero__lead-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.hero__lead-content > .typography-1 {
+  order: 1;
+}
+
+.hero__lead-content > .typography-4 {
+  order: 0;
+}
+
+.hero__lead-content > .typography-5 {
+  order: 2;
+}
+
 .hero__signup {
   padding-top: 1.5625rem;
   padding-bottom: 1.75rem;
@@ -30,6 +59,10 @@
 }
 
 @media screen and (min-width: 992px) {
+  .hero__signup .form-register {
+    max-width: 33.125rem;
+  }
+
   .hero__announcement {
     flex-direction: row;
     align-items: center;
