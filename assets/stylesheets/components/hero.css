@@ -30,6 +30,7 @@
 
 .hero__lead-content > .typography-5 {
   order: 2;
+  color: var(--ir-hashita-purple);
 }
 
 .hero__signup {
