@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  background-color: var(--ir-black-cherry);
+}
+
+.hero__signup {
+  padding-top: 1.5625rem;
+  padding-bottom: 1.75rem;
+  background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
+}
+
+.hero__signup .typography-4 {
+  margin-top: 0.3125rem;
+}
+
+.hero__signup .form-register {
+  margin-top: 1.25rem;
+}
+
+.hero__announcement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  margin-top: 1.875rem;
+}
+
+.hero__announcement strong {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__announcement {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero__signup {
+    padding-top: 3.125rem;
+    padding-bottom: 3.5rem;
+  }
+}
