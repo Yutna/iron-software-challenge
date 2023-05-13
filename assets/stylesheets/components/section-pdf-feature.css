@@ -1,0 +1,119 @@
+.section-pdf-feature {
+  position: relative;
+  background-color: var(--ir-black-cherry);
+  overflow: hidden;
+}
+
+.section-pdf-feature::before {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: 9%;
+  width: 74%;
+  height: 64%;
+  background: linear-gradient(144.39deg, #e01a59 -32.66%, #460a48 71.03%);
+  opacity: 0.3;
+  filter: blur(117.5px);
+}
+
+.section-pdf-feature__header {
+  padding-top: 4rem;
+  padding-bottom: 1.5625rem;
+}
+
+.section-pdf-feature__title {
+  position: relative;
+  text-align: center;
+}
+
+.section-pdf-feature__title > .typography-2 {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-pdf-feature__title > .typography-2::before {
+  content: "";
+  position: absolute;
+  top: -3.25rem;
+  right: -5.125rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: transparent;
+  background-image: url("../../images/badges/badge-coming-soon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.section-pdf-feature__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 3.125rem;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.section-pdf-feature__list-item {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.625;
+}
+
+.section-pdf-feature__list-item--divider {
+  display: none;
+}
+
+.section-pdf-feature__list-item > em {
+  font-weight: 700;
+}
+
+.section-pdf-feature__info {
+  padding-top: 1.71875rem;
+  padding-bottom: 1.71875rem;
+  background-color: rgba(23, 6, 23, 0.3);
+}
+
+.section-pdf-feature__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.375rem;
+}
+
+.section-pdf-feature__content strong {
+  font-weight: 500;
+}
+
+.section-pdf-feature__content p:last-child {
+  margin-bottom: 0.125rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-pdf-feature__header {
+    padding-top: 5.875rem;
+    padding-bottom: 3.125rem;
+  }
+
+  .section-pdf-feature__list {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .section-pdf-feature__list-item--divider {
+    display: block;
+  }
+
+  .section-pdf-feature__info {
+    padding-top: 3.4375rem;
+    padding-bottom: 3.4375rem;
+  }
+}

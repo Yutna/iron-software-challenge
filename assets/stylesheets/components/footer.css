@@ -1,6 +1,7 @@
 .footer {
   position: relative;
   background-color: var(--ir-black-cherry);
+  overflow: hidden;
 }
 
 .footer::before {
