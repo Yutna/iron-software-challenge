@@ -3,6 +3,26 @@
   background-color: var(--ir-black-cherry);
 }
 
+/* 
+ * NOTE
+ * Don't ask me about those background size values came from...
+ * This is my "magic number" LOL 😈
+*/
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8.75rem;
+  height: 7.875rem;
+  background-color: transparent;
+  background-image: url("../../images/illustrations/illustration-pdf.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto 7.875rem;
+}
+
 .hero__lead {
   padding-top: 7.375rem;
   padding-bottom: 2.125rem;
@@ -36,7 +56,12 @@
 .hero__signup {
   padding-top: 1.5625rem;
   padding-bottom: 1.75rem;
-  background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
+  background: linear-gradient(
+    90deg,
+    #8e608e 28.16%,
+    #402640 67.82%,
+    #371a34 83.75%
+  );
 }
 
 .hero__signup .typography-4 {
@@ -59,7 +84,30 @@
   font-weight: 500;
 }
 
+@media screen and (min-width: 576px) {
+  .hero::before {
+    width: 14.625rem;
+    height: 13.0625rem;
+    background-size: auto 13.0625rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero::before {
+    width: 16.0625rem;
+    height: 14.375rem;
+    background-image: url("../../images/cover/cover.svg");
+    background-size: auto 14.375rem;
+  }
+}
+
 @media screen and (min-width: 992px) {
+  .hero::before {
+    width: 34.0625rem;
+    height: 30.5625rem;
+    background-size: auto 30.5625rem;
+  }
+
   .hero__signup .form-register {
     max-width: 33.125rem;
   }
@@ -72,5 +120,21 @@
   .hero__signup {
     padding-top: 3.125rem;
     padding-bottom: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero::before {
+    width: 39rem;
+    height: 34.875rem;
+    background-size: auto 34.875rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero::before {
+    width: 48.75rem;
+    height: 43.625rem;
+    background-size: auto 43.625rem;
   }
 }
